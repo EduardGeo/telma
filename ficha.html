@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telma</title>
+</head>
+
+<body>
+    <h1>Conoce a Telma</h1>
+    <h2>Ficha</h2>
+    <div class="ficha">
+        <img class="ficha" src="img/ficha.jpg" alt="foto ficha">
+        <p>
+        <ol>
+            <li><strong>Nombre:</strong> Telma</li>
+            <li><strong>Especie:</strong> Canina</li>
+            <li><strong>Raza:</strong> Podenco portugués pequeño
+                <span>
+                    <input type="button" value="Más info aquí"
+                        onclick="document.getElementById('dialog-1').setAttribute('open', 'open')">
+                </span>
+                <dialog id="dialog-1">
+                    <h2>Podenco Portugués</h2>
+                    <img src="img/podenco_wiki.jpg" alt="podenco">
+                    <p>El Podenco portugués es una raza de perro con muy buena vista y olfato, proveniente de Portugal.
+                        Como raza, el Podenco
+                        se divide en tres categorías de tamaño que no se cruzan: pequeño (Pequeno), mediano (Médio) y
+                        grande
+                        (Grande).
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Portuguese_Podengo">
+                            <img class="wiki" src="img/wikipedia.png" alt="podenco"><br> Más info</a>
+                    </p>
+
+                    <p>
+                        <input type="button" value="Cerrar"
+                            onclick="document.getElementById('dialog-1').removeAttribute('open')">
+                    </p>
+                </dialog>
+            </li>
+            <li><strong>Sexo:</strong> Hembra</li>
+            <li><strong>Fecha de nacimiento:</strong> 01/11/2008</li>
+            <li><strong>Color:</strong> Crema</li>
+            <li><strong>Código de chip:</strong> 941034511672392</li>
+            <li><strong>Clínica veterinaria:</strong> <a
+                    href="https://svpap.org/s33-nuestra-clinica-veterinaria">Sociedad Valenciana Protectora de Animales
+                    y Plantas</a></li>
+        </ol>
+        </p>
+    </div>
+    <nav>
+        <a href="index.html">Página inicial</a>
+        <a href="aficiones.html">Aficiones</a>
+        <a href="club.html">Club de fans</a>
+    </nav>
+</body>
+
+</html>

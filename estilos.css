@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    background:  lightgreen;
+    font-family: sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
+
+h1{
+    font-family: 'Gorditas', cursive;
+    text-align: center;
+    font-size:3.2em;
+}
+
+h2{
+    font-family: 'Gorditas', cursive;
+    text-align: center;
+    font-size:2.6em;
+    text-decoration: underline;
+}
+
+nav{
+    margin:50px;
+    text-align:center ;
+}
+
+nav a {
+    background-color:green;
+    border: solid 4px black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-transform:uppercase;
+    text-decoration:none;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-family: 'Gorditas', cursive;
+    font-size: 2.3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 220px;
+    margin:20px;
+}
+
+form{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;  
+}
+
+header p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    text-align: justify;
+
+}
+
+header {
+    margin:20px;
+}
+
+header img{
+    float: right;
+    margin-right: 20px;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+
+div.ficha li{
+    line-height: 250%;
+    font-size: 1.7em;
+    font-family: 'Patrick Hand', cursive;
+}
+
+div.ficha ol{
+    column-count:1;
+}
+
+img.ficha{
+    border: solid 4px black;
+    float:left;
+    width:400px;
+}
+
+img.club{
+    border: solid 4px black;
+    float:right;
+    width:30%;
+}
+
+span{
+    font-size: 50%;
+}
+
+dialog{
+    font-size: 75%;
+    line-height: 100%;
+    width:50%;
+}
+
+dialog img{
+    width:175px;
+    border: solid 2px black;
+    float:left;
+}
+
+dialog h2{
+    font-size:1.5em ;
+}
+
+img.wiki{
+    width:80px;
+    border:none;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article img{
+    border: solid 3px black;
+    border-radius: 10px;
+    width:175px;
+}
+
+article.landscape img{
+    width:250px;
+}
+
+iframe{
+    margin:15px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+details{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+summary{
+    font-size:2em ;
+    font-family: 'Gorditas', cursive;
+}
+
+:focus {
+    outline: none;
+}
