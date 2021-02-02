@@ -26,7 +26,9 @@ h2{
 
 nav{
     margin:50px;
-    text-align:center ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
 }
 
 nav a {
@@ -41,8 +43,6 @@ nav a {
     margin-right: 1.5%;
     font-family: 'Gorditas', cursive;
     font-size: 2.3em;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 img{
