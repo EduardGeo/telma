@@ -155,3 +155,26 @@ summary{
 :focus {
     outline: none;
 }
+
+@media screen and (max-width: 479px) {
+    body{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    header img{
+        text-align: center;
+        margin-right: 2%;
+        border: solid 4px black;
+        border-radius: 10px;
+        width: 150px;
+    }
+
+    header p{
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1.5em;
+        text-align: justify;
+    }
+    
+    nav a {
+        font-size: 1.5em;
+    }
